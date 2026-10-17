@@ -1,0 +1,60 @@
+# Python / Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales (Virtual environments)
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Django y base de datos local
+*.sqlite3
+*.db
+media/
+staticfiles/
+
+# Variables de entorno y configuraciones locales
+.env.local
+.env.development
+.env.production
+local_settings.py
+
+# IDEs y Editores de código
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+.obsidian/
+
+# Logs y coberturas de pruebas
+*.log
+htmlcov/
+.tox/
+.nox/
+.cache
+.pytest_cache/
+.mypy_cache/
